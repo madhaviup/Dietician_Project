@@ -1,0 +1,66 @@
+<h1> Patient Registration Form </h1>
+
+<!--<form action="">-->
+<!--    FirstName :<input type="text" name = "FirstName"> <br/>-->
+<!--    LastName :<input type = "text"  name="LastName"><br/>-->
+<!--    Phone Number :<input type = "int" maxlength="10"><br>-->
+<!--    Address 1:<input type = "text" ><br>-->
+<!--    Address 2:<input type = "text"> <br>-->
+<!--    City : <input type = "text"> <br>-->
+<!--    Zipcode: <input type = "int">-->
+
+
+<!--</form>-->
+<div style="margin-bottom: 10px">
+
+<form method="post">
+            <div class="form-group">
+                <label for="nameLabel">First Name</label>
+                <input id="firstname" name="name" class="form-control" type="text" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="nameLabel">Last Name</label>
+                <input id="lastname" name="name" class="form-control" type="text" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="PhoneLabel">Phone Number</label>
+                <input id="phone" name="phone number" class="form-control" type="int" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="Address1 Label">Address1</label>
+                <input id="Address1" name="Address1" class="form-control" type="text" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="Address2">Address2</label>
+                <input id="Address2" name="Address2" class="form-control" type="text" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="City">City</label>
+                <input id="City" name="City" class="form-control" type="text" /><br><br>
+            </div>
+            <div class="form-group">
+                <label for="Zipcode">Zipcode</label>
+                <input id="Zipcode" name="Zipcode" class="form-control" type="int" /><br><br>
+            </div><br><br>
+<!--            <div>-->
+<!--            <p>Click on the "Choose File" button to upload a Report:</p>-->
+<!--            <input type="file" id="myFile" name="filename">-->
+<!--            </div><br><br>-->
+<!--            <div>-->
+                <input type="submit" value="Submit">
+
+<!--            </div>-->
+
+</form>
+</div>
+
+
+<!--{% if error %}-->
+<!--<div style="color:red;">{{ error }}</div>-->
+<!--{% endif %}-->
+
+<!--<form action="/register" method ="post">-->
+<!--    {% csrf_token % }-->
+<!--    {{ form.as_p }}-->
+<!--    <input type ="submit" value="Submit">-->
+<!--</form>-->
