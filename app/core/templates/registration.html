@@ -1,4 +1,7 @@
-<h1> Patient Registration Form </h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
 <!--<form action="">-->
 <!--    FirstName :<input type="text" name = "FirstName"> <br/>-->
@@ -11,44 +14,64 @@
 
 
 <!--</form>-->
-<div style="margin-bottom: 10px">
+<div class="container" style="margin-bottom: 10px">
+
 
 <form method="post">
-            <div class="form-group">
+    <div class="form-row col-md-12 text-center">
+        <h1> Patient Registration Form </h1>
+    </div>
+    <div class="form-row">
+            <div class="form-group col-md-6">
                 <label for="nameLabel">First Name</label>
-                <input id="firstname" name="name" class="form-control" type="text" /><br><br>
+                <input id="firstname" name="name" class="form-control" type="text" />
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-6">
                 <label for="nameLabel">Last Name</label>
-                <input id="lastname" name="name" class="form-control" type="text" /><br><br>
+                <input id="lastname" name="name" class="form-control" type="text" />
             </div>
+    </div>
+    <div class="form-row col-md-12">
             <div class="form-group">
                 <label for="PhoneLabel">Phone Number</label>
-                <input id="phone" name="phone number" class="form-control" type="int" /><br><br>
+                <input id="phone" name="phone number" class="form-control" type="int" />
             </div>
-            <div class="form-group">
+    </div>
+    <div class="form-row">
+            <div class="form-group col-md-12">
                 <label for="Address1 Label">Address1</label>
-                <input id="Address1" name="Address1" class="form-control" type="text" /><br><br>
+                <input id="Address1" name="Address1" class="form-control" type="text" />
             </div>
-            <div class="form-group">
+    </div>
+    <div class="form-row">
+            <div class="form-group col-md-12">
                 <label for="Address2">Address2</label>
-                <input id="Address2" name="Address2" class="form-control" type="text" /><br><br>
+                <input id="Address2" name="Address2" class="form-control" type="text" />
             </div>
-            <div class="form-group">
+    </div>
+    <div class="form-row">
+            <div class="form-group col-md-6">
                 <label for="City">City</label>
-                <input id="City" name="City" class="form-control" type="text" /><br><br>
+                <input id="City" name="City" class="form-control" type="text" />
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-6">
                 <label for="Zipcode">Zipcode</label>
-                <input id="Zipcode" name="Zipcode" class="form-control" type="int" /><br><br>
-            </div><br><br>
+                <input id="Zipcode" name="Zipcode" class="form-control" type="int" />
+            </div>
+    </div>
 <!--            <div>-->
 <!--            <p>Click on the "Choose File" button to upload a Report:</p>-->
 <!--            <input type="file" id="myFile" name="filename">-->
 <!--            </div><br><br>-->
 <!--            <div>-->
-                <input type="submit" value="Submit">
 
+
+
+    <div class="form-row  text-center">
+    <div >
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+ </div>
 <!--            </div>-->
 
 </form>
